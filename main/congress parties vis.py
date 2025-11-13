@@ -213,4 +213,5 @@ us_congress.to_csv(f"{path}\\us_congress.csv",index=False)
 us_senate.fillna(0,inplace=True)
 us_senate.to_csv(f"{path}\\us_senate.csv",index=False)
 us_house.fillna(0,inplace=True)
+
 us_house.to_csv(f"{path}\\us_house.csv",index=False)
